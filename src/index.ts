@@ -211,7 +211,10 @@ export class Carbon {
 	}
 
 	public subMilliseconds(value: number): Carbon {
-		return Carbon.make(this.#instance.subtract(value, "millisecond"), this.#locale);
+		return Carbon.make(
+			this.#instance.subtract(value, "millisecond"),
+			this.#locale
+		);
 	}
 
 	public subSecond(): Carbon {
