@@ -19,7 +19,7 @@
 		"dist"
 	],
 	"dependencies": {
-		"dayjs": "^1.10.4"
+		"dayjs": "^1.10.5"
 	},
 	"devDependencies": {
 		"@konceiver/tease": "^2.0.1"
